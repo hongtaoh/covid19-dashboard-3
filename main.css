@@ -1,0 +1,82 @@
+body {
+  line-height: 1.4;
+  font-size: 20px;
+}
+h1{font-size: 200%;
+   text-align: center;
+}
+h2{font-size: 150%}
+h3{font-size: 120%}
+
+header{
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+
+#sidebar {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+  background-image: url("iu_tab_left-tail_web.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: -220px 30px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
+#sidebar a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  padding-right: 73px;
+  text-align: right;
+}
+
+#wrapper {
+	margin-left: 140px;
+}
+
+#wrapper {
+}
+#CFR-viz {
+}
+#chart {
+}
+#trend-viz {
+}
+#trajectory-viz{
+}
+#fatality-viz{
+}
+
+.viewof {
+  margin-bottom: 10px;
+}
+
+.chart {
+  max-height: 88%; 
+  max-width: 90%;
+  font-size: 21px;
+}
+
+#explanation {
+  width: 90%
+}
